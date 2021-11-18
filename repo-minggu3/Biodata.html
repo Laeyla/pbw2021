@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Biodata BAI MA</title>
+		<style>
+			body{
+				background-image:url(bg1.jpg);
+				font-family: Goudy Stout;
+				font-size: 36;
+			}
+			.data{
+				font-size: 12pt;
+				color: #00000;
+				padding: 5em;
+				margin: 3em auto;
+				width: 25em;
+				background-image:url(bg2.jpg);
+				border-radius: 3px;
+				font-family: Comic sans ms;
+			}
+			.multimedia{
+				background-image:url(bg1.jpg);
+				font-family: Goudy Stout;
+				font-size: 36;
+			}
+			label{
+				font-size: 12pt;
+				color: #00000;
+			}
+			.tombol{
+				background: #FFDEAD;
+				color: #8B4513Ce;
+				border: 5;
+				padding: 5px 8px;
+				float: right;
+				font-family: Comic sans ms;
+			}
+			input[type="text"],textarea{
+				padding: 8px;
+				width: 95%;
+				background: #FFDEAD;
+				border: 3;
+				font-size: 12pt;
+				font-family: Comic sans ms;
+				margin: 6px 0px;
+			}
+			input[type="email"],textarea{
+				padding: 8px;
+				width: 95%;
+				background: #FFDEAD;
+				border: 3;
+				font-size: 12pt;
+				font-family: Comic sans ms;
+				margin: 6px 0px;
+			}
+			input[type="date"],textarea{
+				padding: 8px;
+				width: 95%;
+				background: #FFDEAD;
+				border: 3;
+				font-size: 12pt;
+				font-family: Comic sans ms;
+				margin: 6px 0px;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="multimedia">
+		<ul>
+			<a href="Multimedia.html">Dokumentasi</a>
+		</ul>
+	</div>
+		<center><h1><B>.:. Biodata BAI MA .:.</B></h1></center>
+		<div class="data">
+			<div class="rowTab">
+				<div class="labels">
+					<label id="name-label" for="name">Nama: </label>
+				</div>
+				<div class="rightTab">
+					<input autofocus type="text" name="name" id="name" class="input-field" placeholder="Tuliskan Namamu" required>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label id="nohp-label" for="name">No Hp: </label>
+				</div>
+				<div class="rightTab">
+					<input autofocus type="text" name="nohp" id="nohp" class="input-field" placeholder="Berapa No Hpnya" required>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label id="email-label" for="email">Email: </label>
+				</div>
+				<div class="rightTab">
+					<input type="email" name="email" id="email" class="input-field" required placeholder="Cantumkan Emailmu">
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label id="dob-label" for="dob">Tanggal Lahir: </label>
+				</div>
+				<div class="rightTab">
+					<input type="date" name="dob" id="iddob" class="input-field" required>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label for="gender">Gender: </label>
+				</div>
+				<div class="rightTab">
+					<ul style="list-style: none;">
+						<li class="radio"><label><input name="radio-buttons" value="male"  type="radio" class="userRatings" >Ikhwan</label></li>
+						<li class="radio"><label><input name="radio-buttons" value="female"  type="radio" class="userRatings" >Akhwat</label></li>
+					</ul>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label for="address">Alamat: </label>
+				</div>
+				<div class="rightTab">
+					<textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="address" placeholder="Dimana Alamat Rumahmu"></textarea>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label for="fakultas">Fakultas: </label>
+				</div>
+				<div class="rightTab">
+					<select>
+					<option selected="select">-= Pilih Fakultasmu =-</option>
+					<option value="fik">Fakultas Ilmu Komputer</option>
+					<option value="feb">Fakulats Ekonomi & Bisnis</option>
+					<option value="fkes">Fakultas Kesehatan</option>
+					<option value="fib">Fakultas Ilmu Bahasa</option>
+					<option value="ft">Fakultas Teknik</option>
+					</select>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label id="prodi-label" for="prodi">Program Studi: </label>
+				</div>
+				<div class="rightTab">
+					<input autofocus type="text" name="prodi" id="prodi" class="input-field" placeholder="Ambil Prodi apa" required>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label for="gender">Angkatan Kuliah: </label>
+				</div>
+				<div class="rightTab">
+					<ul style="list-style: none;">
+						<li class="radio"><label><input name="radio-buttons" value="2018"  type="radio" class="userRatings" >2018</label></li>
+						<li class="radio"><label><input name="radio-buttons" value="2019"  type="radio" class="userRatings" >2019</label></li>
+						<li class="radio"><label><input name="radio-buttons" value="2020"  type="radio" class="userRatings" >2020</label></li>
+					</ul>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label for="jabatan">Jabatan: </label>
+				</div>
+				<div class="rightTab">
+					<select>
+					<option selected="select">-= Kamu sebagai apa =-</option>
+					<option value="ku">Ketua Umum</option>
+					<option value="wku">Wakil Ketua Umum</option>
+					<option value="su">Sekretaris Umum</option>
+					<option value="s1">Sekretaris 1</option>
+					<option value="bu">Bendahara Umum</option>
+					<option value="b1">Bendahara 1</option>
+					<option value="kbk">Ketua Bidang Kaderisasi</option>
+					<option value="sbk">Sekretaris Bidang Kaderisasi</option>
+					<option value="abk">Staf Ahli Bidang Kaderisasi</option>
+					<option value="kbs">Ketua Bidang Syiar</option>
+					<option value="sbs">Sekretaris Bidang Syiar</option>
+					<option value="abs">Staf Ahli Bidang Syiar</option>
+					<option value="kbh">Ketua Bidang Humas</option>
+					<option value="sbh">Sekretaris Bidang Humas</option>
+					<option value="abh">Staf Ahli Bidang Humas</option>
+					<option value="kbd">Ketua Bidang Dana Usaha</option>
+					<option value="sbd">Sekretaris Bidang Dana Usaha</option>
+					<option value="abd">Staf Ahli Bidang Dana Usaha</option>
+					<option value="kba">Ketua Bidang Annisa</option>
+					<option value="sba">Sekretaris Bidang Annisa</option>
+					<option value="aba">Staf Ahli Bidang Annisa</option>
+					<option value="ktdk">Ketua Tim Dakwah Kreatif</option>
+					<option value="stdk">Sekretaris Tim Dakwah Kreatif</option>
+					<option value="atdk">Staf Ahli Tim Dakwah Kreatif</option>
+					<option value="ktm">Ketua Tim Mentoring</option>
+					<option value="stm">Sekretaris Tim Mentoring</option>
+					</select>
+				</div>
+			</div>
+			<div class="rowTab">
+				<div class="labels">
+					<label for="gender">Angkatan BAI: </label>
+				</div>
+				<div class="rightTab">
+					<ul style="list-style: none;">
+						<li class="radio"><label><input name="radio-buttons" value="2k19"  type="radio" class="userRatings" >2019</label></li>
+						<li class="radio"><label><input name="radio-buttons" value="2k20"  type="radio" class="userRatings" >2020</label></li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<input type="submit" class="tombol" value="Kirim"><br><br><br>
+			</div>	
+		</div>
+	</body>
+</html>
